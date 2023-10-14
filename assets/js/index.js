@@ -1,3 +1,4 @@
+/* Slide */
 const headerCarousel = document.getElementById('headerCarousel');
 let currentIndex = 0;
 
