@@ -112,20 +112,22 @@ h2{
   margin-top: 15px;
   display: flex;
   justify-content: center;
-  border: 1px solid #FFF7E9;
+  border: none;
 }
 .button_container button{
   background-color: gray; 
   color: #fff;
   border-radius: 5px;
   transition: background-color 0.3s ease;
-  font-size: 18px; /* Ajusta el tamaño de la fuente según tus preferencias */
-  padding: 10px 20px; /* Ajusta el relleno (padding) según tus preferencias */
+  font-size: 18px; 
+  padding: 10px 20px;
+  border: none;
 }
 
 
 .button_container button:hover {
-  background-color: #FFD700;
+  background-color: black;
+  border: none;
 }
 
 /* galería */
@@ -170,6 +172,8 @@ h2{
 
 /* Eventos */
 
+
+
 .container_events {
   display: flex;
   flex-wrap: wrap;
@@ -178,19 +182,18 @@ h2{
   padding: 20px;
 }
 
-.section {
-  width: 45%;
-  margin-bottom: 20px;
-}
+
 
 .events {
-  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(48%, 1fr));
+  gap: 20px;
 }
 
 
 
 .events img {
-  width: 50%;
+  width: 100%;
   height: auto;
   border-radius: 8px;
   /* margin-bottom: 10px; */
