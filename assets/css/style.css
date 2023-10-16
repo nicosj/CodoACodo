@@ -94,7 +94,7 @@ main {
 }
 
 .image_content:hover{
-  transform: scale(1.1);
+  transform: scale(1.05);
 }
 
 h2{
@@ -172,28 +172,25 @@ h2{
 
 /* Eventos */
 
-
-
 .container_events {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: center;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
   padding: 20px;
 }
 
-
+.container_event h2{
+  grid-column: 1/-1;;
+}
 
 .events {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(48%, 1fr));
-  gap: 20px;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
 }
 
-
-
 .events img {
-  width: 100%;
+  width: 75%;
   height: auto;
   border-radius: 8px;
   /* margin-bottom: 10px; */
@@ -201,12 +198,10 @@ h2{
   transition: opacity 0.3s ease-in-out;
 }
 
-
 .event {
   position: relative;
   overflow: hidden;
   border-radius: 8px;
-  
 }
 
 .event:hover img {
@@ -221,7 +216,6 @@ h2{
   /* text-align: center; */
   color: #fff;
 }
-
 
 .button {
   display: inline-block;
