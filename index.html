@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="./assets/media/icons/love.png" type="image/x-icon">
+    <!-- <link rel="shortcut icon" href="./assets/media/icons/love.png" type="image/x-icon"> -->
     <link rel="icon" href="./assets/media/images/favicon.ico" type="image/x-icon" sizes="16x16">
     <link rel="stylesheet" href="./assets/css/style.css">
     <script src="./assets/js/index.js"></script>
@@ -12,6 +12,7 @@
 <body>
 
     <hedear> </hedear>
+    
     <main>
         <!-- Slide -->
       <section class="carousel">
@@ -34,9 +35,6 @@
       <div class="text_content">
       <h2><em style="font-weight: 300;">Viví tu experiencia PY</em></h2>
         <p class="description">¿Cuál es nuestro mayor orgullo? Sabernos elegidos una y otra vez. Ver a nuestros clientes felices, leerlos y entender que hicimos posible aquel momento inolvidable que durará para siempre.</p>
-      <div class="button_container">
-        <button>COTIZAR</button>
-        </div>
         </div>
         
         <div class="image_content"><img src="./assets/media/images/events.jpg"></div>
@@ -49,7 +47,7 @@
             <h2><em style="font-weight: 300;">No hay límites para soñar</em></h2>
               <p class="description">Aún tenemos un largo camino por delante y muchos sueños por cumplir, pero aquí les compartimos algunas palabras que nos llenan de alegría… Ofrecemos espacios increíbles para fiestas memorables…</p>
             <div class="button_container">
-              <button>CONTACTO</button>
+              <button>CONTACTANOS</button>
               </div>
               </div>
         </div> 
@@ -60,7 +58,7 @@
           </div>
       
           <div class="right-intro">
-            <p class="descriptiongit ">Somos un equipo de profesionales especializados en la organización de eventos exclusivos. Además, y sobre todas las cosas, somos artífices de grandes sueños, un grupo humano que entiende que vale la pena celebrar la vida y ofrece un escenario para que todos los anhelos se conviertan en realidad. Desde 2009 hasta la actualidad hemos hecho posible más de 800 experiencias únicas que perdurarán para siempre en la memoria de quienes nos elijen.</p>
+            <p class="description">Somos un equipo de profesionales especializados en la organización de eventos exclusivos. Además, y sobre todas las cosas, somos artífices de grandes sueños, un grupo humano que entiende que vale la pena celebrar la vida y ofrece un escenario para que todos los anhelos se conviertan en realidad. Desde 2009 hasta la actualidad hemos hecho posible más de 800 experiencias únicas que perdurarán para siempre en la memoria de quienes nos elijen.</p>
           </div>
         </div>
 
@@ -75,7 +73,7 @@
       <div class="event">
       <img src="./assets/media/images/4-3.jpg" alt="Evento 1">
       <div class="event-text">
-      <p><b>DESCRIPCIÓN 1</b></p>
+      <p>EVENTOS SOCIALES</p>
       <a href="pagina-evento1.html" class="button">Ver más</a>
     </div>
     </div>
@@ -83,7 +81,7 @@
     <div class="event">
       <img src="./assets/media/images/5-3.jpg" alt="Evento 2">
       <div class="event-text">
-      <p>DESCRIPCIÓN 2</p>
+      <p>EVENTOS CORPORATIVOS</p>
       <a href="pagina-evento2.html" class="button">Ver más</a>
     </div>
   </div>
@@ -93,36 +91,46 @@
 
 <!-- Eventos 2 -->
 
-<div class="title_events"><h2>Nuestros eventos</h2></div>
+<div class="title_events"><h2>El lugar</h2></div>
 
 <div class="events_2">
-    <div class="event">
+    <div class="event" id="evento2">
       <img src="./assets/media/images/decoraciones-de-eventos.jpg" alt="Evento 1">
       <div class="event-text">
-      <p>Recepción</p>
-      <a href="pagina-evento1.html" class="button">Ver más</a>
+
+      <p onclick="mostrarModal('Como no podía ser de otra forma, nuestras instalaciones están equipadas con todo lo que se necesita para llevar a cabo su evento: Ambiente climatizado, seguridad privada, estacionamiento, grupo electrógeno propio, Internet Wi-Fi, suite ejecutiva, mesas, sillas, escenario, personal de emergencia durante todo el evento, personal de limpeza, y mantenimiento permanente, encargado de salón, proveedores exclusivos en servicios de catering, musicalización y ambientación de primer nivel.')">INSTALACIONES</p>
+      
     </div>
     </div>
 
-    <div class="event">
-      <img src="./assets/media/images/decoraciones-de-eventos.jpg" alt="Evento 2">
+    <div class="event" id="Event">
+      <img src="./assets/media/images/catering.jpg" alt="Evento 2">
       <div class="event-text">
-      <p>Descripción del evento 2</p>
-      <a href="pagina-evento2.html" class="button">Salón principal</a>
+      
+      <p onclick="mostrarModal('Es una propuesta innovadora en el mundo de la gastronomía, mucho más que un catering tradicional que se impone para desarrollar un servicio de excelencia personalizado para cualquier tipo de evento. Nuestra filosofía radica en ofrecer un menú moderno y creativo, utilizando técnicas de vanguardia, sin olvidar el paladar nacional. A su vez, podemos asesorarlo en la plena organización de su evento, y dandole la mejor opción de menú.')">CATERING</p>
     </div>
     </div>
-
-    <div class="event">
-      <img src="./assets/media/images/decoraciones-de-eventos.jpg" alt="Evento 2">
-      <div class="event-text">
-      <p>Deck</p>
-      <a href="pagina-evento2.html" class="button">Salón principal</a>
-    </div>
-  </div>
-</div>
-</div>
 
    
+
+    <div class="event" id="evento2">
+      <img src="./assets/media/images/boda (2).jpg" alt="Evento 2">
+      <div class="event-text">
+        
+      <p onclick="mostrarModal(' PY es la alternativa, diseñada y concebida, para la realización de todo tipo de eventos, tanto sociales como corporativos, Cuenta con una excelente ubicación, moderna arquitectura con fachada totalmente vidriada, y amplios ventanales que permitiendo que en eventos diurnos, brinde una luz cálida natural y disfrutar de hermosas vistas y vivilas en PY.')">¿POR QUE ELEGIRNOS?</p>
+       
+    </div>
+  </div>
+
+  <div id="miModal" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="cerrarModal()">&times;</span>
+        <div id="contenidoModal"></div>
+    </div>
+</div>
+
+</div>
+</div>  
 
       <!-- Galería -->
       <div class="gallery">
@@ -182,7 +190,7 @@
 
         </section><br>     -->
         <section>
-          <center><h2>Dondé nos encontras?</h2></center>
+          <center><h2>¿Dónde nos encontras?</h2></center>
             <iframe
                 src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13105.58819694298!2d-58.3837096!3d-34.7959514!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcd33817dcad05%3A0xb0446f84f0d3fb87!2sCasona%20Amelie!5e0!3m2!1ses!2sar!4v1692797593282!5m2!1ses!2sar"
                 width="1400" height="400" style="border:0;" allowfullscreen="" loading="lazy"
@@ -190,16 +198,39 @@
             </iframe>
         </section>
         
-        <section>
-                <h3>Seguinos en nuestras redes sociales </h3>
-                <a href="https://www.facebook.com/saloneventosamelie/?locale=es_LA" target="_blank">Facebook</a>
-                <a href="https://www.instagram.com/amelieventos/?hl=es" target="_blank">Instagram</a>
-                <a href="https://www.tiktok.com/@amelie_eventos_oficial" target="_blank">Tik Tok</a>
-                
-        </section>
+      
 
     </main>
 
-    <footer></footer>
+    <footer>
+    <!--Inicio de footer-->
+    <!-- <footer class="pie-pagina">
+      <div class="grupo-1">
+          <div class="box">
+              <figure>
+                  <a href="#">
+                      <img src="./assets/media/images/logo.png" alt="Logo">
+                  </a>
+              </figure>
+          </div>
+          <div class="box">
+              <h2>Nuestro lema</h2>
+              <p>La felicidad es el ingrediente secreto de la vida, vení a sazonarla con nosotros que somos expertos.</p>
+          </div>
+          <div class="box">
+              <h2>SIGUENOS</h2>
+              <div class="red-social">
+                  <a href="https://www.facebook.com/saloneventosamelie/?locale=es_LA" class="fa fa-facebook"></a>
+                  <a href="https://www.instagram.com/amelieventos/?hl=es" class="fa fa-instagram"></a>
+                  <a href="https://twitter.com/casaamelie" class="fa fa-twitter"></a>
+                  <a href="https://www.youtube.com/c/SalonesparaEventos" class="fa fa-youtube"></a>
+              </div>
+          </div>
+      </div>
+      <div class="grupo-2">
+          <small>&copy; 2023 <b>GruPo 17</b> - Todos los Derechos Reservados.</small>
+      </div> -->
+  </footer>
+<!--Fin de footer-->    
 </body>
 </html>

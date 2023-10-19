@@ -50,9 +50,10 @@
   }
   
   .event-text p {
-    background: rgba(0, 0, 0, 0.2);
+    background: #E9DBC1;
     padding: 15px;
-    color: #fff;
+    color: black;
+    margin-top: 10px;
   }
   
   .button {

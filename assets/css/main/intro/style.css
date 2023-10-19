@@ -1,16 +1,18 @@
 .intro {
-  margin: 40px 150px 20px;
+  margin: 40px 150px 60px;
 }
 
 .container_intro {
   display: flex;
   margin-bottom: 30px;
+  margin-top: 20px;
 }
 
 .text_content {
   flex: 1;
   display: flex;
   flex-direction: column;
+  margin-top: 20px;
 }
 
 .image_content {
@@ -59,6 +61,7 @@ h2 {
 .button_container button:hover {
   background-color: black;
   border: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
 }
 
 /* QUIENES SOMOS */
@@ -67,6 +70,7 @@ h2 {
   justify-content: center;
   padding: 20px;
   align-items: center;
+  margin-top: 20px;
 }
 
 .left-intro {
