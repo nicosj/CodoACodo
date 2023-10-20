@@ -54,6 +54,7 @@
     padding: 15px;
     color: black;
     margin-top: 10px;
+    border-radius: 5px;
   }
   
   .button {
@@ -64,4 +65,22 @@
     text-decoration: none;
     border-radius: 5px;
     margin-top: 15px;
+  }
+
+  .button_modal{
+    padding: 15px;
+    background-color: #E9DBC1;
+    border: none;
+    border-radius: 5px;
+    margin-top: 15px;
+    transition: all 0.3s ease;
+  }
+
+  .button_modal:hover{
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 15px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #fff;
+    transform: scale(1.1);
   }
