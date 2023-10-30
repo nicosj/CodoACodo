@@ -1,5 +1,5 @@
 # DESCRIPCIÓN
-Nuestro proyecto trata de una salón de eventos versátil creado con diseño full stack. Hemos elegido como nombre "Py" tomado como referencia las 2 primeras letras de nuestro curso "Python".
+Nuestro proyecto trata de una salón de eventos versátil creado con diseño full stack. Hemos elegido como nombre "Py" tomado como referencia las 2 primeras letras de nuestro curso, "Python".
 
 ¡Bienvenidos a Py, donde la elegancia y la tecnología se encuentran!"
 
@@ -7,10 +7,10 @@ Nuestro proyecto trata de una salón de eventos versátil creado con diseño ful
 Crear una plataforma web completa y atractiva que permita a los usuarios explorar, reservar y obtener información detallada sobre nuestro salón de eventos.
 
 # PLANIFICACIÓN
-La llevamos a cabo mediante weeklys. Buscamos inspiración en páginas similares, siendo una guía para nuestro proyecto , lo que ayudó a tomar las pautas a seguir.
+La llevamos a cabo mediante weeklys. Buscamos inspiración en páginas similares, siendo una guía para nuestro proyecto, lo que ayudó a tomar las pautas a seguir.
 
 # ORGANIZACIÓN 
-Dividimos las tareas para después poder integrarlas en  el proyecto.Esta división deliberada facilitó una colaboración eficiente, asegurando coherencia y calidad en cada fase del desarrollo.
+Dividimos las tareas para después poder integrarlas en el proyecto. Esta división deliberada facilitó una colaboración eficiente, asegurando coherencia y calidad en cada fase del desarrollo.
 
 # Diseño y desarrollo
 La estructura la realizamos con HTML definiedo elementos tales como encabezados, párrafos, imágenes, enlaces, entre otros.
@@ -29,6 +29,7 @@ Creemos que cumplimos con las pautas propuestas. El resumen de nuestros logros y
 
 
 # Enlace al repo :
+https://653ffcb2d93fa92ea712d63e--inspiring-hamster-aeec51.netlify.app/
 
 # Integrantes:
 Alegrette,Belén
