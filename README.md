@@ -28,7 +28,7 @@ El despliegue se llevó a cabo a través de GITHUB tratando de llevar una implem
 Creemos que cumplimos con las pautas propuestas. El resumen de nuestros logros y desafíos se llevó a cabo con éxito. Dando como resultado un diseño atractivo y funcional.
 
 
-# Enlace al repo :
+# Enlace al repo navegable :
 https://65412190e58a5e17c5185f3a--unrivaled-froyo-995e31.netlify.app/
 
 # Integrantes:
