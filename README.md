@@ -29,7 +29,7 @@ Creemos que cumplimos con las pautas propuestas. El resumen de nuestros logros y
 
 
 # Enlace al repo navegable :
-https://65412190e58a5e17c5185f3a--unrivaled-froyo-995e31.netlify.app/
+https://65412e2831c39a2316803e5f--unrivaled-froyo-995e31.netlify.app/
 
 # Integrantes:
 Alegrette,Belén
