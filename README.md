@@ -29,7 +29,7 @@ Creemos que cumplimos con las pautas propuestas. El resumen de nuestros logros y
 
 
 # Enlace al repo :
-https://653ffcb2d93fa92ea712d63e--inspiring-hamster-aeec51.netlify.app/
+https://654049391a365e20cd0b0bff--unrivaled-froyo-995e31.netlify.app/
 
 # Integrantes:
 Alegrette,Belén
