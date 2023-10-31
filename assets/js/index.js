@@ -1,5 +1,6 @@
 /* Modal "El lugar" */
 function mostrarModal(texto) {
+    console.log("Modal mostrado");
     var modal = document.getElementById("miModal");
     var contenidoModal = document.getElementById("contenidoModal");
 

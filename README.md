@@ -28,8 +28,8 @@ El despliegue se llevó a cabo a través de GITHUB tratando de llevar una implem
 Creemos que cumplimos con las pautas propuestas. El resumen de nuestros logros y desafíos se llevó a cabo con éxito. Dando como resultado un diseño atractivo y funcional.
 
 
-# Enlace al repo :
-https://654049391a365e20cd0b0bff--unrivaled-froyo-995e31.netlify.app/
+# Enlace al repo navegable :
+ https://65412190e58a5e17c5185f3a--unrivaled-froyo-995e31.netlify.app/
 
 # Integrantes:
 Alegrette,Belén
@@ -39,7 +39,8 @@ Rodriguez,Nicolás
 
 
 
-# PALETA DE COLORES
+# PALETA DE COLORES:
+
 #635E58 GRIS OSCURO
 #BAB5B1 GRIS CLARO
 #E9DBC1 BEIGE
